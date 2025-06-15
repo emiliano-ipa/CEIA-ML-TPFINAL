@@ -19,6 +19,7 @@ statsmodels = "^0.14.1"
 scikit-learn = "^1.4.2"
 imbalanced-learn = "^0.12.0"
 scipy = "^1.15.3"
+imblearn = "^0.0"
 
 [build-system]
 requires = ["poetry-core"]
