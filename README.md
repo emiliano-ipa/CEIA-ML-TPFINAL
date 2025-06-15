@@ -24,17 +24,36 @@ El objetivo principal es explorar y modelar los factores asociados al desgaste l
 
 El repositorio contiene múltiples notebooks de Python organizados de la siguiente manera:
 
-### [`TP1_EDA.ipynb`](./TP1_EDA.ipynb)
+### Notebooks de preparación de datos:
+
+#### [`TP1_EDA.ipynb`](./TP1_EDA.ipynb)
 Análisis exploratorio de datos (EDA), que incluye:
 - Limpieza e imputación de valores nulos
 - Análisis de distribuciones
 - Visualización de correlaciones y variables relevantes
 
-### [`TP1_PCA.ipynb`](./TP1_PCA.ipynb)
+#### [`TP1_PCA.ipynb`](./TP1_PCA.ipynb)
 Aplicación de análisis de componentes principales (PCA) para:
 - Reducción de dimensionalidad
 - Evaluación de modelos sobre el dataset reducido
 - Comparación de performance con respecto al dataset original
+
+### Notebooks de modelos:
+Para cada modelo realizado:
+ - Explora el rendimiento de cada modelo con el dataset completo y el dataset reducido por PCA.
+ - Detalla los reportes de clasificación y matrices de confusión para una comparación exhaustiva.
+ - Evalúa el impacto de PCA en la precisión, exhaustividad y puntuación F1.
+  
+#### [`TP1_Models_KNN.ipynb`](./TP1_Models_KNN.ipynb)
+Este notebook implementa y evalúa modelos K-Nearest Neighbors (KNN).
+
+
+#### [`TP1_Models_SVM.ipynb`](./TP1_Models_SVM.ipynb)
+Este notebook desarrolla y analiza modelos de Árboles de Decisión, Random Forest y Gradient Boosting.
+
+#### [`TP1_Models_Trees.ipynb`](./TP1_Models_Trees.ipynb)
+Este notebook desarrolla y analiza modelos de Árboles de Decisión, Random Forest y Gradient Boosting.
+
 
 ---
 
@@ -44,3 +63,4 @@ Este proyecto utiliza [Poetry](https://python-poetry.org/) para la gestión del 
 
 ```bash
 poetry install
+
