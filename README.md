@@ -54,6 +54,16 @@ Este notebook desarrolla y analiza modelos de Árboles de Decisión, Random Fore
 #### [`TP1_Models_Trees.ipynb`](./TP1_Models_Trees.ipynb)
 Este notebook desarrolla y analiza modelos de Árboles de Decisión, Random Forest y Gradient Boosting.
 
+#### ['TP1_LogisticRegression.ipynb](./TP1_LogisticRegression.ipynb)
+Este notebook desarrolla 4 modelos Regresión Logística Multiclase:
+  - Dataset original
+  - Dataset original con optimización de hiperparámetros
+  - Dataset con Random Under Sampling
+  - Dataset PCA 6 componentes
+  
+#### ['TP1_Models_Ensable.ipynb'](./TP1_Models_Ensamble.ipynb)
+Este notebook desarrolla modelos de ensamble
+
 
 ---
 
