@@ -66,6 +66,16 @@ Este notebook desarrolla modelos de ensamble
 
 
 ---
+### Nota final sobre implementación - Pipeline y preprocesamiento
+
+Durante el preprocesamiento, se aplicaron técnicas de escalado (StandardScaler) y reducción de dimensionalidad (PCA) para evaluar el impacto en distintos modelos de machine learning.
+En un entorno real, estas transformaciones deberían encapsularse en un pipeline reutilizable para aplicar de forma consistente sobre nuevos datos.
+
+Sin embargo, para facilitar la lectura y mantener la simplicidad de los notebooks, la transformación PCA se aplicó por adelantado y se exportaron los resultados como archivos .csv. Sin embargo, en un entorno de producción, lo recomendable es aplicar el pipeline completo (escalado + PCA) directamente sobre nuevos datos mediante un objeto serializado.
+
+Se muestra un ejemplo de cómo generar un pipeline reutilizable en el punto 5 del notebook [`TP1_PCA.ipynb`](./TP1_PCA.ipynb)
+
+---
 
 ## 🚀 Requisitos
 
@@ -73,4 +83,3 @@ Este proyecto utiliza [Poetry](https://python-poetry.org/) para la gestión del 
 
 ```bash
 poetry install
-
